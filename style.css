@@ -29,11 +29,11 @@ body{
 #main{
     min-height:456px;
     width:278px;
-    margin-top: 96px;
+    margin-top: 108px;
     background-color: var(--calculator-background);
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
     border-radius: 12px;
-    padding:18px 18px 32px 18px;
+    padding:18px 18px 20px 18px;
 }
 
 #screen{
@@ -54,6 +54,7 @@ body{
     font-size: 24px;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
+    text-align: right;
 }
 
 #answer{
@@ -109,7 +110,7 @@ body{
 
 #footer{
     margin-top: auto;
-    font-family: 20px;
+    font-size: 22px;
     display: flex;
     align-items: center;
     padding: 12px;
